@@ -52,3 +52,17 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Visual Studio rác vặt
+.vs/
+*.user
+*.suo
+*.VC.db
+*.opendb
+
+# ASP.NET Core
+# appsettings.json thường commit, nhưng file local/dev riêng thì bỏ qua:
+appsettings.*.Local.json
+
+# Thư mục upload runtime (từ dự án của bạn)
+wwwroot/UploadFiles/**
